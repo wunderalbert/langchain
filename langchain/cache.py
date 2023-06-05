@@ -13,7 +13,7 @@ RETURN_VAL_TYPE = List[Generation]
 
 class BaseCache(ABC):
     """Base interface for cache."""
-
+df
     @abstractmethod
     def lookup(self, prompt: str, llm_string: str) -> Optional[RETURN_VAL_TYPE]:
         """Look up based on prompt and llm_string."""
